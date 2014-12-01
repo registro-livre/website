@@ -6,12 +6,15 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'jquery-rails'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 
 group :development do
-  gem 'spring',        group: :development
+  gem 'spring'
   gem 'sqlite3'
 end
 
 group :development, :test do
-	gem 'rspec-rails',          '3.0.1'
+	gem 'rspec-rails'
 end
