@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :empresas
+
   root 'index#welcome'
 
   get 'index/welcome'
